@@ -1,7 +1,7 @@
 # Moodify
 
 <p align="center">
-  <img src="screenshots/Moodify_promo.png" width="48%" />
+  <img src="screenshots/moodify_promo.png" width="48%" />
 </p>
 
 Moodify is an AI-powered mobile application that transforms visual context into music recommendations.
