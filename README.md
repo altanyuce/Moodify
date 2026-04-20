@@ -1,5 +1,9 @@
 # Moodify
 
+<p align="center">
+  <img src="screenshots/Moodify_promo.png" width="48%" />
+</p>
+
 Moodify is an AI-powered mobile application that transforms visual context into music recommendations.
 
 It analyzes images in real time and generates context-aware song suggestions using a hybrid pipeline combining vision AI, rule-based scoring, and external music discovery.
