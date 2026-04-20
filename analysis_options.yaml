@@ -1,0 +1,27 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Style
+    - prefer_single_quotes
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - unnecessary_new
+    - unnecessary_this
+    - use_super_parameters
+
+    # Safety
+    - avoid_print
+    - avoid_dynamic_calls
+    - cancel_subscriptions
+
+    # Null safety
+    - prefer_null_aware_operators
+
+analyzer:
+  errors:
+    # withOpacity is soft-deprecated but still fully functional — treat as info
+    deprecated_member_use: info
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"

@@ -1,0 +1,47 @@
+name: moodify
+description: AI-powered mood analyzer from photos
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Image picking
+  image_picker: ^1.0.7
+
+  # HTTP requests
+  http: ^1.2.0
+
+  # Sharing
+  share_plus: ^9.0.0
+
+  # Path provider
+  path_provider: ^2.1.2
+
+  # Environment variables
+  flutter_dotenv: ^5.1.0
+
+  # Cached network images (album art)
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/moodify_icon.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/moodify_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fallback/
